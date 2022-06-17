@@ -1,0 +1,45 @@
+.send {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 370px;
+  margin-left: 340px;
+}
+
+.send_money p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+}
+
+.send_money {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.send_money:hover p {
+    color: white;
+    transition: all 0.1s ease-out;
+}
+
+.send_money:hover {
+    background: linear-gradient(180deg, #FD3A6C 0%, #F5855C 100%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.send_money:hover svg path {
+    fill: white;
+    transition: all 0.1s ease-out;
+}
+
+.send_money:active {
+    transform: scale(1.1);
+    transition: all 0.2s ease-out;
+}

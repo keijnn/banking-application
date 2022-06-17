@@ -1,0 +1,89 @@
+.nav_bar {
+    position: absolute;
+    width: 212px;
+    height: 900px;
+    display: flex;
+    margin-left: 29px;
+    align-items: center;
+    border-right: 1px solid #DADADA;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: flex-start;
+}
+
+.navigation {
+    margin-top: 60px;
+    height: 693px;
+}
+
+.links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.li_style {
+    margin-top: 37px;
+    transition: all 0.2s ease-out;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #262626;
+}
+
+.link:hover {
+    color: #FD3A6C;
+}
+
+.active {
+    color: #FD3A6C;
+    list-style: disc;
+    margin-left: 34px;
+    margin-top: 37px;
+    transition: all 0.2s ease-out;
+}
+
+.active .link {
+    color: #FD3A6C;
+}
+
+.active svg {
+    fill: #FD3A6C;
+}
+
+.li_style:hover .link {
+    color: #FD3A6C;
+}
+
+.li_style:hover svg {
+    fill: #FD3A6C;
+}
+
+.li_style svg {
+    fill: #262626;
+}
+
+.profile {
+    margin-top: 530px;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.profile:hover {
+    color: #FD3A6C;
+}
+
+svg {
+    margin-right: 14px;
+}
+
+.avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: black;
+}
