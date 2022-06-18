@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react"
 import "./Balance.css"
 
 export const Balance = (props) => {
+
+  //Chrome and firefox has different styles
+
   // api data
   const [json, setJson] = useState({
     data: [],

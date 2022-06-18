@@ -8,6 +8,7 @@ import { Routes, Route, Navigate } from "react-router-dom"
 import { SendMoneyPage } from "./components/SendMoneyPage/SendMoneyPage"
 import { HomePage } from "./components/HomePage/HomePage"
 
+
 const App = () => {
   const [act, setAct] = useState('Home')
   const [bal, setBal] = useState()
