@@ -129,8 +129,10 @@ export const Balance = (props) => {
             }}
           >
             <li className="li_styles">
+              {/* In Chromium different styles */}
               <p className={`${item.currency} maj`}>{accounts[i].svg}</p>
             </li>
+
             <p className="title">{item.title}</p>
             <p className="bal_sym">{accounts[i].svg}</p>
             <p className="bal">{item.balance.toFixed(2)}</p>
